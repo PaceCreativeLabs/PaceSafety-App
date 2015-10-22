@@ -1,10 +1,17 @@
-﻿<Properties StartupItem="Droid/PaceSafety.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin Nexus 10 (KitKat)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PaceSafety/MainNavigationPage.cs">
+﻿<Properties StartupItem="iOS/PaceSafety.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../Downloads/Todo/PCL/Todo/Views/TodoListPage.cs">
     <Files>
-      <File FileName="PaceSafety/PaceSafety.cs" Line="12" Column="20" />
-      <File FileName="PaceSafety/HomePage.cs" Line="11" Column="4" />
-      <File FileName="PaceSafety/MainNavigationPage.cs" Line="10" Column="9" />
+      <File FileName="PaceSafety/PaceSafety.cs" Line="3" Column="21" />
+      <File FileName="PaceSafety/HomePage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/MainNavigationPage.cs" Line="10" Column="4" />
+      <File FileName="PaceSafety/PoliciesWebPage.cs" Line="18" Column="48" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="PaceSafety/PaceContactInfoPage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/ReportsPage.cs" Line="15" Column="29" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="../../../Downloads/Todo/PCL/Todo/Views/TodoItemPage.cs" Line="1" Column="1" />
+      <File FileName="../../../Downloads/Todo/PCL/Todo/Views/TodoListPage.cs" Line="19" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,5 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
+using System.Collections.Generic;
 
 namespace PaceSafety
 {
@@ -11,20 +12,31 @@ namespace PaceSafety
 			Title = "Reports";
 
 			// Create Screen Elements
-			var testButton = new Button {
-				Text = "Another Button",
-				BackgroundColor = Color.Blue
+			var list = new ListView {
+				
 			};
+			list.ItemsSource = new string[]{
+				"mono",
+				"monodroid"
+			};
+			list.IsGroupingEnabled = true;
+			list.GroupDisplayBinding = new Binding ("Title");
+			list.GroupShortNameBinding = new Binding ("ShortName");
+
 
 			// Create Screen Content
 			Content = new ContentView {
 				Content = new StackLayout {
 					Children = {
-						testButton
+						list
 					}
 				}
 			};
 		}
+
+
+
+
 	}
 }
 

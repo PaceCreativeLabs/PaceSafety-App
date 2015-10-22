@@ -11,16 +11,32 @@ namespace PaceSafety
 			Title = "Information";
 
 			// Create Screen Elements
-			var testButton = new Button {
-				Text = "Another Button",
+			var policiesButton = new Button {
+				Text = "Pace Policies",
+				TextColor = Color.White,
 				BackgroundColor = Color.Blue
+			};
+			policiesButton.Clicked += (sender, e) => {
+				Navigation.PushAsync(new PoliciesWebPage());
+			};
+
+			var contactButton = new Button {
+				Text = "Contact Info",
+				TextColor = Color.White,
+				BackgroundColor = Color.Green
+			};
+			contactButton.Clicked += (sender, e) => {
+				Navigation.PushAsync(new PaceContactInfoPage());
 			};
 
 			// Create Screen Content
 			Content = new ContentView {
 				Content = new StackLayout {
+					Padding = new Thickness(50,0,50,0),
+					Spacing = 50,
 					Children = {
-						testButton
+						policiesButton,
+						contactButton
 					}
 				}
 			};

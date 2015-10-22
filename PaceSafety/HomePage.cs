@@ -66,7 +66,7 @@ namespace PaceSafety
 					
 		}
 
-		/* To Implement */
+		/* Navigation Functions */
 		private void openAlertPage () {
 			Navigation.PushAsync(new AlertPage ());
 		}
