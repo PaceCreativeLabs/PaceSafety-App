@@ -1,17 +1,16 @@
 ﻿<Properties StartupItem="iOS/PaceSafety.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PaceSafety/PoliciesWebPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/APIClientIOS.cs">
     <Files>
-      <File FileName="PaceSafety/PaceSafety.cs" Line="17" Column="27" />
-      <File FileName="PaceSafety/HomePage.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/MainNavigationPage.cs" Line="6" Column="2" />
+      <File FileName="PaceSafety/PaceSafety.cs" Line="12" Column="3" />
+      <File FileName="../../../../../PreviousComputerFiles/Users..Barak/Projects/WeatherApp/WeatherApp/APIClient.cs" Line="8" Column="25" />
+      <File FileName="../../../../../PreviousComputerFiles/Users..Barak/Projects/WeatherApp/iOS/APIClientIOS.cs" Line="12" Column="25" />
+      <File FileName="PaceSafety/APIClient.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/DataObjects.cs" Line="65" Column="2" />
       <File FileName="PaceSafety/PoliciesWebPage.cs" Line="17" Column="39" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="PaceSafety/PaceContactInfoPage.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/ReportsPage.cs" Line="15" Column="16" />
-      <File FileName="iOS/Main.cs" Line="17" Column="40" />
-      <File FileName="../../../Downloads/Todo/PCL/Todo/Views/TodoItemPage.cs" Line="1" Column="1" />
-      <File FileName="../../../Downloads/Todo/PCL/Todo/Views/TodoListPage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/HomePage.cs" Line="10" Column="4" />
+      <File FileName="PaceSafety/ContactsPage.cs" Line="1" Column="1" />
+      <File FileName="iOS/APIClientIOS.cs" Line="9" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

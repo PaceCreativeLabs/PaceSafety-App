@@ -22,3 +22,4 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.Requests.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.NetworkInformation.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.RegularExpressions.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Newtonsoft.Json.dll

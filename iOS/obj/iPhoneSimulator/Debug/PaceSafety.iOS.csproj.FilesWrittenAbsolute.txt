@@ -76,3 +76,4 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Calabash.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll.mdb
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

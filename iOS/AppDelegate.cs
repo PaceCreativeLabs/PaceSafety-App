@@ -19,7 +19,9 @@ namespace PaceSafety.iOS
 			Xamarin.Calabash.Start();
 			#endif
 
-			LoadApplication (new App ());
+			App sharedApp = new App();
+			sharedApp.api = new APIClientIOS ();
+			LoadApplication (sharedApp);
 
 			return base.FinishedLaunching (app, options);
 		}
