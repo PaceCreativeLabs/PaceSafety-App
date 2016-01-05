@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Net;
+using System.IO;
+using System.Text;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
@@ -25,14 +29,19 @@ namespace PaceSafety
 			Description;
 
 		public string ToJsonString () {
+			return JsonConvert.SerializeObject (ToDictionary ());
+		}
+
+		public Dictionary<string,string> ToDictionary () {
 			var data = new Dictionary<string,string> ();
 			data.Add ("name", Name);
 			data.Add ("email", Email);
 			data.Add ("date", IncidentDate);
 			data.Add ("time", IncidentTime);
+			data.Add ("type", IncidentType);
 			data.Add ("location", IncidentLocation);
 			data.Add ("description", Description);
-			return JsonConvert.SerializeObject (data);
+			return data;
 		}
 	}
 
@@ -51,15 +60,19 @@ namespace PaceSafety
 
 		public string ToJsonString ()
 		{
-			var data = new Dictionary<string,Object> ();
+			return JsonConvert.SerializeObject (ToDictionary ());
+		}
+
+		public Dictionary<string,string> ToDictionary () {
+			var data = new Dictionary<string,string> ();
 			data.Add ("type", type.ToString ());
 			data.Add ("name", Name);
 			data.Add ("email", Email);
 			data.Add ("address", LocationAddress);
 			data.Add ("coordinates", LocationCoordinates);
 			data.Add ("locationExtra", LocationExtraInfo);
-			data.Add ("contacts", contactNumbers);
-			return JsonConvert.SerializeObject (data);
+			data.Add ("contacts", JsonConvert.SerializeObject (contactNumbers));
+			return data;
 		}
 	}
 

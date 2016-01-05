@@ -6,6 +6,8 @@ namespace PaceSafety
 {
 	public class ReportsPage: ContentPage
 	{
+		public APIClient api;
+
 		public ReportsPage ()
 		{
 			// Set Page Title
@@ -24,19 +26,34 @@ namespace PaceSafety
 //			list.GroupShortNameBinding = new Binding ("ShortName");
 //
 //
-//			// Create Screen Content
-//			Content = new ContentView {
-//				Content = new StackLayout {
-//					Children = {
-//						list
-//					}
-//				}
-//			};
+			var button = new Button {
+				Text = "Send Test Report",
+				TextColor = Color.White,
+				BackgroundColor = Color.Red,
+				HorizontalOptions = LayoutOptions.FillAndExpand,
+				MinimumHeightRequest = 100
+			};
+			button.Clicked += (sender, e) => { fakeReport(); };
+
+			// Create Screen Content
+			Content = new ContentView {
+				Content = new StackLayout {
+					Children = {
+						button
+					}
+				}
+			};
 		}
 
-
-
-
+		private void fakeReport() {
+			var report = new Report ();
+			report.Name = "Joseph Josephson";
+			report.IncidentType = "Assault";
+			report.Email = "bm09148n@pace.edu";
+			api.SendReport (report, success => {
+				Tools.Print("Sent Report: " + success.ToString());
+			});
+		}
 	}
 }
 

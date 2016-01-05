@@ -6,6 +6,8 @@ namespace PaceSafety
 {
 	public class HomePage: ContentPage
 	{
+		public APIClient api;
+
 		public HomePage ()
 		{
 			// Set Page Properties
@@ -67,9 +69,18 @@ namespace PaceSafety
 					
 		}
 
+		public void testAPI () {
+			api.GetLocations (locations => {
+				Tools.Print("Locations:::");
+				Tools.Print(locations.GetCampuses()[1]);
+			});
+		}
+
 		/* Navigation Functions */
 		private void openAlertPage () {
-			Navigation.PushAsync(new AlertPage ());
+			var alertPage = new AlertPage ();
+			alertPage.api = api;
+			Navigation.PushAsync(alertPage);
 		}
 		private void openInfoPage () {
 			Navigation.PushAsync(new InfoPage ());
@@ -78,7 +89,9 @@ namespace PaceSafety
 			Navigation.PushAsync(new ContactsPage ());
 		}
 		private void openReportsPage () {
-			Navigation.PushAsync(new ReportsPage ());
+			var reportsPage = new ReportsPage ();
+			reportsPage.api = api;
+			Navigation.PushAsync(reportsPage);
 		}
 	}
 }

@@ -23,3 +23,10 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.NetworkInformation.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.RegularExpressions.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Newtonsoft.Json.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Linq.Parallel.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Runtime.InteropServices.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Collections.Concurrent.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.IO.Compression.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Reflection.Primitives.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.Encoding.dll

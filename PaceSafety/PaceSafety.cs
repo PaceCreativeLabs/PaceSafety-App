@@ -11,10 +11,14 @@ namespace PaceSafety
 		public Dictionary<SaveDataType,Object> savedData;
 		public APIClient api;
 
-		public App ()
+		public App (APIClient apiClient)
 		{
 			// Create Custom Navigation Page
-			var navigationPage = new NavigationPage(new HomePage () );
+			var homePage = new HomePage ();
+			api = apiClient;
+			homePage.api = api;
+			homePage.testAPI ();
+			var navigationPage = new NavigationPage(homePage);
 			navigationPage.BarBackgroundColor = Color.Blue;
 			navigationPage.BarTextColor = Color.White;
 
