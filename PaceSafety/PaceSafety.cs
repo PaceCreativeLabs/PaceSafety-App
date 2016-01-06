@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Xamarin.Forms;
 
 namespace PaceSafety
@@ -10,9 +9,8 @@ namespace PaceSafety
 		{
 			// Create Custom Navigation Page
 			var navigationPage = new NavigationPage(new HomePage () );
-			navigationPage.BarBackgroundColor = Color.Blue;
+			navigationPage.BarBackgroundColor = Color.FromHex("1c6cb6");
 			navigationPage.BarTextColor = Color.White;
-
 			// The root page of your application
 			MainPage = navigationPage;
 		}

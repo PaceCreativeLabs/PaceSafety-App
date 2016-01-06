@@ -13,41 +13,65 @@ namespace PaceSafety
 
 			// Create Screen Elements
 			var alertButton = new Button {
-				Text = "Alert",
-				TextColor = Color.White,
-				BackgroundColor = Color.Red,
+				Text = "EMERGENCY ALERT!",
+				TextColor = Color.FromHex("#2b2a2a"),
+				FontSize = 16,
+				FontFamily = Device.OnPlatform (
+					"OpenSans",
+					null,
+					null
+				), // set only for iOS
+//				BackgroundColor = Color.Red,
 				HeightRequest = 200
 			};
 			alertButton.Clicked += (sender, e) => { openAlertPage(); };
 
 			var reportButton = new Button {
-				Text = "Report",
-				TextColor = Color.White,
-				BackgroundColor = Color.Teal,
+				Text = "File a Report",
+				TextColor = Color.FromHex("#2b2a2a"),
+				FontSize = 16,
+				FontFamily = Device.OnPlatform (
+					"OpenSans",
+					null,
+					null
+				), // set only for iOS
+//				BackgroundColor = Color.Teal,
 				HorizontalOptions = LayoutOptions.FillAndExpand
 			};
 			reportButton.Clicked += (sender, e) => { openReportsPage(); };
 
 			var infoButton = new Button {
-				Text = "Info",
-				TextColor = Color.White,
-				BackgroundColor = Color.Blue,
+				Text = "Information",
+				TextColor = Color.FromHex("#2b2a2a"),
+				FontSize = 16,
+				FontFamily = Device.OnPlatform (
+					"OpenSans",
+					null,
+					null
+				), // set only for iOS
+//				BackgroundColor = Color.Blue,
 				HorizontalOptions = LayoutOptions.FillAndExpand
 			};
 			infoButton.Clicked += (sender, e) => { openInfoPage(); };
 
 			var contactsButton = new Button {
-				Text = "My Contacts",
-				TextColor = Color.White,
-				BackgroundColor = Color.Silver
+				Text = "My Emergency Contacts",
+				TextColor = Color.FromHex("#2b2a2a"),
+				FontSize = 16,
+				FontFamily = Device.OnPlatform (
+					"OpenSans",
+					null,
+					null
+				), // set only for iOS
+//				BackgroundColor = Color.Silver
 			};
 			contactsButton.Clicked += (sender, e) => { openContactsPage(); };
 
 			// Create Screen Content
 			Content = new ContentView {
 				Content = new StackLayout {
-					Padding = new Thickness(50,0,50,0),
-					Spacing = 50,
+					Padding = new Thickness(50,100,50,0),
+					Spacing = 100,
 					Children = {
 						alertButton,
 						new ContentView {

@@ -3,20 +3,20 @@ using Xamarin.Forms;
 
 namespace PaceSafety
 {
-	public class PoliciesWebPage: ContentPage
+	public class TitleIXPage: ContentPage
 	{
-		public PoliciesWebPage ()
+		public TitleIXPage ()
 		{
 
 			// Set Page Title
-			Title = "Pace Policies";
+			Title = "Title IX Rights";
 
 			var source = new UrlWebViewSource ();
-			source.Url = "http://pace.edu/sexual-assault";
+			source.Url = "http://knowyourix.org/title-ix/title-ix-the-basics/";
 			var webView = new WebView {
-					HorizontalOptions = LayoutOptions.FillAndExpand,
-					VerticalOptions = LayoutOptions.FillAndExpand,
-					Source = source
+				HorizontalOptions = LayoutOptions.FillAndExpand,
+				VerticalOptions = LayoutOptions.FillAndExpand,
+				Source = source
 			};
 			webView.Navigating += (object sender, WebNavigatingEventArgs e) => {
 				System.Diagnostics.Debug.WriteLine("Loading");
