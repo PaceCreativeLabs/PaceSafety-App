@@ -19,7 +19,9 @@ namespace PaceSafety.Droid
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
-			LoadApplication (new App ());
+			App sharedApp = new App ();
+			sharedApp.api = new APIClientDroid ();
+			LoadApplication (sharedApp);
 		}
 	}
 }
