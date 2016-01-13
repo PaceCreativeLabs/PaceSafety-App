@@ -11,7 +11,7 @@ namespace PaceSafety
 	abstract public class APIClient
 	{
 		protected string serverUrl = "http://sclapp.herokuapp.com"; //"http://localhost:8080"; 
-		protected string toPhoneNumber = "+12012948083";
+		protected string toPhoneNumber = "5107594352";
 		protected string userEmail;
 
 		public APIClient () {}
