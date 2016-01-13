@@ -22,6 +22,7 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.Requests.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.NetworkInformation.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.RegularExpressions.dll
+<<<<<<< HEAD
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Newtonsoft.Json.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Linq.Parallel.dll
@@ -31,10 +32,16 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Reflection.Primitives.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.Encoding.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
+=======
+/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+>>>>>>> PaceSafety-UI
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/PaceSafety.dll.mdb
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/PaceSafety.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/PaceSafety.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/PaceSafety.dll.mdb
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Core.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Xaml.dll
+<<<<<<< HEAD
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Newtonsoft.Json.dll
+=======
+>>>>>>> PaceSafety-UI

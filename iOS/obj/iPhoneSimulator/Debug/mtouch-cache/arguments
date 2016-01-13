@@ -34,8 +34,11 @@
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll" \
+<<<<<<< HEAD
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Newtonsoft.Json.8.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+=======
+>>>>>>> PaceSafety-UI
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -136,6 +139,7 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XmlSerializer.dll \
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll" \
+<<<<<<< HEAD
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
 	-r \
@@ -144,6 +148,14 @@
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll" \
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Newtonsoft.Json.8.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll" \
+=======
+	-r \
+	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll" \
+	-r \
+	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.Forms.1.3.3.6323/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll" \
+	-r \
+	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll" \
+>>>>>>> PaceSafety-UI
 	-r \
 	"/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/PaceSafety.dll" \
 	--target-framework \
