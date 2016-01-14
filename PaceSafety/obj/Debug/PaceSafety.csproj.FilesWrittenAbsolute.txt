@@ -41,7 +41,4 @@
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/PaceSafety.dll.mdb
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Core.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Xaml.dll
-<<<<<<< HEAD
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Newtonsoft.Json.dll
-=======
->>>>>>> PaceSafety-UI

@@ -1,9 +1,6 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Collections.Generic;
 using Newtonsoft.Json;
-=======
->>>>>>> PaceSafety-UI
 using Xamarin.Forms;
 
 namespace PaceSafety
@@ -17,17 +14,12 @@ namespace PaceSafety
 		public App (APIClient apiClient)
 		{
 			// Create Custom Navigation Page
-<<<<<<< HEAD
 			var homePage = new HomePage ();
 			api = apiClient;
 			homePage.api = api;
 			homePage.testAPI ();
-			var navigationPage = new NavigationPage(homePage);
-			navigationPage.BarBackgroundColor = Color.Blue;
-=======
 			var navigationPage = new NavigationPage(new HomePage () );
 			navigationPage.BarBackgroundColor = Color.FromHex("1c6cb6");
->>>>>>> PaceSafety-UI
 			navigationPage.BarTextColor = Color.White;
 			// The root page of your application
 			MainPage = navigationPage;

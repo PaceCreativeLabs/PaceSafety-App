@@ -117,12 +117,7 @@
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/Calabash.dll
-<<<<<<< HEAD
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll.mdb
-=======
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll.mdb
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/obj/iPhoneSimulator/Debug/optimized/IceCream.png
->>>>>>> PaceSafety-UI

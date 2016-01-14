@@ -1,22 +1,19 @@
 ﻿<Properties StartupItem="iOS/PaceSafety.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/APIClientIOS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../../Library/Frameworks/Mono.framework/Versions/4.2.1/lib/mono/4.5/Microsoft.Common.targets">
     <Files>
-      <File FileName="PaceSafety/PaceSafety.cs" Line="1" Column="1" />
-      <File FileName="../../../../../PreviousComputerFiles/Users..Barak/Projects/WeatherApp/WeatherApp/APIClient.cs" Line="1" Column="1" />
-      <File FileName="../../../../../PreviousComputerFiles/Users..Barak/Projects/WeatherApp/iOS/APIClientIOS.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/APIClient.cs" Line="28" Column="12" />
-      <File FileName="PaceSafety/DataObjects.cs" Line="69" Column="30" />
-      <File FileName="PaceSafety/PoliciesWebPage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/PaceSafety.cs" Line="4" Column="11" />
       <File FileName="PaceSafety/HomePage.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/ContactsPage.cs" Line="1" Column="1" />
-      <File FileName="iOS/APIClientIOS.cs" Line="61" Column="36" />
-      <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/MainNavigationPage.cs" Line="6" Column="2" />
+      <File FileName="PaceSafety/PoliciesWebPage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/PaceContactInfoPage.cs" Line="1" Column="1" />
       <File FileName="PaceSafety/ReportsPage.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/MainNavigationPage.cs" Line="1" Column="1" />
-      <File FileName="PaceSafety/Properties/AssemblyInfo.cs" Line="19" Column="1" />
+      <File FileName="iOS/Main.cs" Line="8" Column="25" />
+      <File FileName="PaceSafety/AlertPage.cs" Line="1" Column="1" />
+      <File FileName="PaceSafety/APIClient.cs" Line="10" Column="2" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="PaceSafety/PaceSafety.csproj" Line="47" Column="41" />
+      <File FileName="../../../../../../../Library/Frameworks/Mono.framework/Versions/4.2.1/lib/mono/4.5/Microsoft.Common.targets" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
