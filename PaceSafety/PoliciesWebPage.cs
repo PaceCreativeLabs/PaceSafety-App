@@ -7,6 +7,10 @@ namespace PaceSafety
 	{
 		public PoliciesWebPage ()
 		{
+
+			// Set Page Title
+			Title = "Pace Policies";
+
 			var source = new UrlWebViewSource ();
 			source.Url = "http://pace.edu/sexual-assault";
 			var webView = new WebView {
