@@ -30,3 +30,9 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.IO.Compression.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Reflection.Primitives.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.Encoding.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Cirrious.CrossCore.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Cirrious.MvvmCross.Localization.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Splat.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.UserDialogs.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.UserDialogs.Interface.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.MvvmCross.Plugins.UserDialogs.dll

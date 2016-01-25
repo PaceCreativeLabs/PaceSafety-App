@@ -10,6 +10,8 @@ namespace PaceSafety
 
 		public ReportsPage ()
 		{
+			var report = Storage.Instance.GetReport ();
+
 			// Set Page Title
 			Title = "Reports";
 

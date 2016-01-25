@@ -66,7 +66,6 @@ namespace PaceSafety
 					}
 				}
 			};
-					
 		}
 
 		public void testAPI () {
@@ -78,21 +77,24 @@ namespace PaceSafety
 
 		/* Navigation Functions */
 		private void openAlertPage () {
-			var alertPage = new AlertPage ();
-			alertPage.api = api;
-			Navigation.PushAsync(alertPage);
+			var alertNav = new AlertNavigationPage (api);
+			alertNav.doneAction = () => {
+				Navigation.PopModalAsync ();
+			};
+			Navigation.PushModalAsync (alertNav);
 		}
 		private void openInfoPage () {
 			Navigation.PushAsync(new InfoPage ());
 		}
 		private void openContactsPage () {
-			Navigation.PushAsync(new ContactsPage ());
+			Navigation.PushAsync(new ContactsPage (null));
 		}
 		private void openReportsPage () {
 			var reportsPage = new ReportsPage ();
 			reportsPage.api = api;
 			Navigation.PushAsync(reportsPage);
 		}
+
 	}
 }
 

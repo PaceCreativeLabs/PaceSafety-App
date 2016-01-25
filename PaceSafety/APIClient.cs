@@ -16,7 +16,7 @@ namespace PaceSafety
 
 		public APIClient () {}
 
-		abstract protected void Post (string url, Object data, Action<Object> callback);
+		abstract protected void Post (string url, Object data, Action<Object,Object> callback);
 		abstract protected void Get (string url, bool parse, Action<Object> callback);
 
 		abstract public void SendReport (Report report, Action<bool> callback);

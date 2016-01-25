@@ -18,7 +18,7 @@ namespace PaceSafety
 			api = apiClient;
 			homePage.api = api;
 			homePage.testAPI ();
-			var navigationPage = new NavigationPage(homePage);
+			var navigationPage = new MainNavigationPage(homePage);
 			navigationPage.BarBackgroundColor = Color.Blue;
 			navigationPage.BarTextColor = Color.White;
 

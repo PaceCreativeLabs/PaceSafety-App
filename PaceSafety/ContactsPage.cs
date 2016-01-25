@@ -5,8 +5,12 @@ namespace PaceSafety
 {
 	public class ContactsPage: ContentPage
 	{
-		public ContactsPage ()
+		public ContactsPage (Action doneAction) 
 		{
+			//NavigationPage.TitleIconProperty = null;
+			var contacts = Storage.Instance.GetContacts ();
+			Tools.Print ("==Contacts==");
+			Tools.Print (contacts[0].Name);
 			// Set Page Title
 			Title = "Emergency Contacts";
 

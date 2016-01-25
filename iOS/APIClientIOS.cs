@@ -14,17 +14,17 @@ namespace PaceSafety.iOS
 	{
 		public APIClientIOS () {}
 
-		protected override void Post (string url, Object data, Action<Object> callback) 
+		protected override void Post (string url, Object data, Action<Object,Object> callback) 
 		{
 			var webClient = new WebClient ();
 			var formattedUrl = new Uri(url);
 
 			webClient.UploadValuesCompleted += (object sender, UploadValuesCompletedEventArgs e) => {
-				if (e.Error != null) Tools.Print(e.Error);
-				Tools.Print(Encoding.UTF8.GetString(e.Result));
+				callback(e.Error, e.Result);
 			};
+
 			if (data is NameValueCollection) webClient.UploadValuesAsync (formattedUrl, data as NameValueCollection);
-			else callback (null);
+			else callback (null,null);
 		}
 		protected override void Get (string url, bool parse, Action<Object> callback) 
 		{
@@ -52,14 +52,8 @@ namespace PaceSafety.iOS
 			var url = serverUrl + "/report";
 			var collection = DictionaryToNameValue (report.ToDictionary ());
 
-			Post (url, collection, data => {
-				try {
-					Tools.Print(data);
-					callback(true);
-				}catch {
-					Tools.Print("Error");
-					callback(false);
-				}
+			Post (url, collection, (err,data) => {
+				callback(err == null);
 			});
 		}
 		public override void SendAlert (Alert alert, Action<bool> callback) 
@@ -68,14 +62,8 @@ namespace PaceSafety.iOS
 			NameValueCollection collection = DictionaryToNameValue (alert.ToDictionary ()) as NameValueCollection;
 			collection.Add ("to", toPhoneNumber); // for testing different phones
 
-			Post (url, collection, data => {
-				try {
-					Tools.Print(data);
-					callback(true);
-				}catch {
-					Tools.Print("Error");
-					callback(false);
-				}
+			Post (url, collection, (err,data) => {
+				callback(err == null);
 			});
 		}
 		public override void GetLocations (Action<Locations> callback)

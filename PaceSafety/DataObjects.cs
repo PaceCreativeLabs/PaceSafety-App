@@ -16,7 +16,6 @@ namespace PaceSafety
 		}
 	}
 
-
 	public struct Report
 	{
 		public string 
@@ -45,10 +44,10 @@ namespace PaceSafety
 		}
 	}
 
+	public enum AlertType { Emergency, Nervous }
+
 	public struct Alert
 	{
-		public enum AlertType { Emergency, Nervous }
-
 		public AlertType type;
 		public List<string> contactNumbers;
 		public string 
@@ -98,6 +97,104 @@ namespace PaceSafety
 				return locations [campus];
 			}
 			return new List<string> ();
+		}
+	}
+
+	public struct Contact : IEquatable<Contact>
+	{
+		public string Name;
+		public int Number;
+		public AlertType type;
+
+		public bool Equals (Contact contact)
+		{
+			return (Name == contact.Name && Number == contact.Number && type == contact.type);
+		}
+	}
+
+	public struct UserData
+	{
+		public string Username;
+		public string FullName;
+	}
+		
+
+	public sealed class Storage
+	{
+		private static volatile Storage instance;
+		private static object syncRoot = new Object();
+
+		private Storage() {}
+
+		//
+		private Report CurrentReport;
+		private List<Contact> Contacts;
+		private UserData UserData;
+
+		public void SetReport (Report report) {
+			CurrentReport = report;
+		}
+		public Report GetReport () {
+			return CurrentReport;
+		}
+
+		public List<Contact> GetContacts () {
+			return Contacts;
+		}
+		public void AddContact (Contact contact) {
+			if (!Contacts.Contains (contact)) {
+				Contacts.Add (contact);
+			}
+		}
+		public void RemoveContact (Contact contact) {
+			Contacts.Remove (contact);
+		}
+		public void SetContact (int index, Contact contact) {
+			Contacts [index] = contact;
+		}
+
+		public UserData GetUserData () {
+			return UserData;
+		}
+		public void SetUserData (UserData newUserData) {
+			UserData = newUserData;
+		}
+
+		public void Save () {}
+		private void Load () {
+			var fakeData = new UserData ();
+			fakeData.FullName = "Barak Michaely";
+			fakeData.Username = "bm09148n";
+			var fakeReport = new Report ();
+			fakeReport.Description = "This is the template description";
+			var fakeContact = new Contact ();
+			fakeContact.Name = "Joey Q.";
+			fakeContact.Number = 2125679043;
+
+			Contacts = new List<Contact> ();
+			SetReport (fakeReport);
+			SetUserData (fakeData);
+			AddContact (fakeContact);
+		}
+		//
+
+		public static Storage Instance
+		{
+			get 
+			{
+				if (instance == null) 
+				{
+					lock (syncRoot) 
+					{
+						if (instance == null) {
+							instance = new Storage();
+							instance.Load ();
+						}
+					}
+				}
+
+				return instance;
+			}
 		}
 	}
 }

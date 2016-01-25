@@ -6,11 +6,15 @@ namespace PaceSafety
 	public class AlertPage: ContentPage
 	{
 		public APIClient api;
+		public Alert alert;
+
 
 		public AlertPage ()
 		{
-			// Set Page Title
+			// Set Page Navigation
 			Title = "Alert!";
+
+			alert = new Alert ();
 
 			// Create Screen Elements
 			var button = new Button {
@@ -37,14 +41,13 @@ namespace PaceSafety
 		private void fakeAlert () {
 			var alert = new Alert ();
 			alert.Name = "Joseph Josephson";
-			alert.type = Alert.AlertType.Emergency;
+			alert.type = AlertType.Emergency;
 			alert.LocationAddress = "1 Pace Plaza";
 			//alert.contactNumbers = new List<string>();
 			api.SendAlert (alert, success => {
 				Tools.Print("Sent Alert: " + success.ToString());
 			});
 		}
-			
 	}
 }
 

@@ -37,6 +37,16 @@
 	-r \
 	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/Newtonsoft.Json.8.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
 	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Localization.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll \
@@ -144,6 +154,16 @@
 	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/Xamarin.TestCloud.Agent.0.13.0/lib/Xamarin.iOS10/Calabash.dll \
 	-r \
 	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/Newtonsoft.Json.8.0.1/lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.Touch.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.Touch.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.CrossCore.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Binding.dll \
+	-r \
+	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/packages/MvvmCross.HotTuna.CrossCore.3.5.1/lib/Xamarin.iOS10/Cirrious.MvvmCross.Localization.dll \
 	-r \
 	/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll \
 	--target-framework \
