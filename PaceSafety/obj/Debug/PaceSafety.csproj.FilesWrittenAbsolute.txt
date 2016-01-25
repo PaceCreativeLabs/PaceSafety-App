@@ -1,53 +1,24 @@
-/Users/Barak/Projects/PaceSafety/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/Barak/Projects/PaceSafety/PaceSafety/bin/Debug/PaceSafety.dll.mdb
-/Users/Barak/Projects/PaceSafety/PaceSafety/bin/Debug/PaceSafety.dll
-/Users/Barak/Projects/PaceSafety/PaceSafety/obj/Debug/PaceSafety.dll
-/Users/Barak/Projects/PaceSafety/PaceSafety/obj/Debug/PaceSafety.dll.mdb
-/Users/Barak/Projects/PaceSafety/PaceSafety/bin/Debug/Xamarin.Forms.Core.dll
-/Users/Barak/Projects/PaceSafety/PaceSafety/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll.mdb
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/PaceSafety.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/PaceSafety.dll.mdb
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Xamarin.Forms.Core.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Newtonsoft.Json.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/mscorlib.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Core.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Linq.Queryable.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Linq.Parallel.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Runtime.InteropServices.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Diagnostics.Tools.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Collections.Concurrent.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.ComponentModel.EventBasedAsync.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.IO.Compression.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.Primitives.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.Requests.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Net.NetworkInformation.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.RegularExpressions.dll
-<<<<<<< HEAD
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Newtonsoft.Json.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Linq.Parallel.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Runtime.InteropServices.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Collections.Concurrent.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.IO.Compression.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Reflection.Primitives.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/System.Text.Encoding.dll
-<<<<<<< HEAD
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Cirrious.CrossCore.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Cirrious.MvvmCross.Localization.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Splat.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.UserDialogs.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.UserDialogs.Interface.dll
-/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/Acr.MvvmCross.Plugins.UserDialogs.dll
-=======
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
-=======
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
->>>>>>> PaceSafety-UI
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/PaceSafety.dll.mdb
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/PaceSafety.dll
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/PaceSafety.dll
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/obj/Debug/PaceSafety.dll.mdb
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Core.dll
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Xamarin.Forms.Xaml.dll
-/Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/PaceSafety/bin/Debug/Newtonsoft.Json.dll
->>>>>>> e3b4c446b8263c81db9c234789f95f1e94ccfb2f
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll.mdb
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/bin/Debug/PaceSafety.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/PaceSafety.dll
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/PaceSafety/obj/Debug/PaceSafety.dll.mdb

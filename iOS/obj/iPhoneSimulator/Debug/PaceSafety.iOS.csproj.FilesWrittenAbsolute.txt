@@ -78,7 +78,6 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll.mdb
 <<<<<<< HEAD
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
-<<<<<<< HEAD
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.Interface.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Acr.UserDialogs.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Splat.dll
@@ -107,7 +106,6 @@
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/BTProgressHUD.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Acr.MvvmCross.Plugins.UserDialogs.dll
 /Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/bin/iPhoneSimulator/Debug/Acr.MvvmCross.Plugins.UserDialogs.Touch.dll
-=======
 =======
 >>>>>>> PaceSafety-UI
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
@@ -152,3 +150,4 @@
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/bin/iPhoneSimulator/Debug/PaceSafety.dll.mdb
 /Users/Hana/Projects/School Projects/SeidenbergCreativeLabs/PaceSafety-App/PaceSafety-App/iOS/obj/iPhoneSimulator/Debug/optimized/IceCream.png
 >>>>>>> e3b4c446b8263c81db9c234789f95f1e94ccfb2f
+/Users/Barak/Projects/CreativeLabs/PaceSafety_Xamarin/iOS/obj/iPhoneSimulator/Debug/optimized/IceCream.png

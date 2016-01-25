@@ -18,13 +18,8 @@ namespace PaceSafety
 			api = apiClient;
 			homePage.api = api;
 			homePage.testAPI ();
-<<<<<<< HEAD
 			var navigationPage = new MainNavigationPage(homePage);
-			navigationPage.BarBackgroundColor = Color.Blue;
-=======
-			var navigationPage = new NavigationPage(new HomePage () );
 			navigationPage.BarBackgroundColor = Color.FromHex("1c6cb6");
->>>>>>> e3b4c446b8263c81db9c234789f95f1e94ccfb2f
 			navigationPage.BarTextColor = Color.White;
 			// The root page of your application
 			MainPage = navigationPage;
