@@ -1,9 +1,11 @@
 ﻿<Properties StartupItem="iOS/PaceSafety.iOS.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PaceSafety/MainNavigationPage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PaceSafety/HomePage.cs">
     <Files>
       <File FileName="PaceSafety/PaceSafety.cs" Line="23" Column="46" />
       <File FileName="PaceSafety/MainNavigationPage.cs" Line="8" Column="3" />
+      <File FileName="PaceSafety/APIClient.cs" Line="14" Column="48" />
+      <File FileName="PaceSafety/HomePage.cs" Line="25" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

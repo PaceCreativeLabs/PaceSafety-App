@@ -25,7 +25,8 @@ namespace PaceSafety
 			IncidentTime, 
 			IncidentType,
 			IncidentLocation,
-			Description;
+			Description,
+			SubjectName;
 
 		public string ToJsonString () {
 			return JsonConvert.SerializeObject (ToDictionary ());
@@ -40,6 +41,7 @@ namespace PaceSafety
 			data.Add ("type", IncidentType);
 			data.Add ("location", IncidentLocation);
 			data.Add ("description", Description);
+			data.Add ("subjectName", SubjectName);
 			return data;
 		}
 	}
