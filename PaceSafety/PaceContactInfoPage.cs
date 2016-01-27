@@ -15,7 +15,7 @@ namespace PaceSafety
 			var nycContactInfo = new Label {
 				Text = "New York Campus: \n41 Park Row, Suite 313 \nNew York, 10038 \n(212) 346-1600",
 				TextColor = Color.FromHex("#2b2a2a"),
-				FontSize = 16,
+				FontSize = 20,
 				FontFamily = Device.OnPlatform (
 					"OpenSans",
 					null,
@@ -28,7 +28,7 @@ namespace PaceSafety
 			var plvContactInfo = new Label {
 				Text = "Pleasantville Campus: \nGoldstein Fitness Center, Room 125\n861 Bedford Road - Pleasantville, \nNew York, 10570 \n(914 )773-3760",
 				TextColor = Color.FromHex("#2b2a2a"),
-				FontSize = 16,
+				FontSize = 20,
 				FontFamily = Device.OnPlatform (
 					"OpenSans",
 					null,

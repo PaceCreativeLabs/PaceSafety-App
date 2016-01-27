@@ -113,6 +113,16 @@
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
     <BundleResource Include="Resources\IceCream.png" />
+    <BundleResource Include="Resources\AlertButton.png" />
+    <BundleResource Include="Resources\FileAReport.png" />
+    <BundleResource Include="Resources\Information.png" />
+    <BundleResource Include="Resources\MyContacts_FakeButton.png" />
+    <BundleResource Include="Resources\TitleIX_FakeButton.png" />
+    <BundleResource Include="Resources\Policies_FakeButton.png" />
+    <BundleResource Include="Resources\Counseling_FakeButton.png" />
+    <BundleResource Include="Resources\Information_FakeButton.png" />
+    <BundleResource Include="Resources\Emergency_FakeButton.png" />
+    <BundleResource Include="Resources\Report_FakeButton.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
